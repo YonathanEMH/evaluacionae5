@@ -1,0 +1,27 @@
+# Creación de Tablas
+
+Esta carpeta contiene los scripts SQL necesarios para la creación de las tablas principales del proyecto de gestión de inventario.
+
+## 📌 Objetivo
+
+Definir la estructura de la base de datos relacional utilizando instrucciones **DDL (Data Definition Language)**. Se crean las entidades clave del sistema junto con sus relaciones a través de claves primarias y foráneas.
+
+## 🧱 Tablas Incluidas
+
+- `productos`: Almacena información sobre los productos disponibles.
+- `proveedores`: Contiene datos de los proveedores que suministran productos.
+- `clientes`: Información sobre los clientes registrados.
+- `transacciones`: Registro de ventas y compras, asociadas a productos, proveedores y clientes.
+
+## ⚙️ Tecnologías Utilizadas
+
+- **Sistema de gestión de base de datos:** MySQL
+- **Lenguaje:** SQL estándar
+
+## ▶️ Cómo ejecutar
+
+1. Abre MySQL Workbench o tu entorno favorito.
+2. Ejecuta el script `crear_tablas.sql` para crear todas las tablas con sus claves primarias y relaciones foráneas.
+3. Verifica que las tablas fueron creadas correctamente con el comando:
+   ```sql
+   SHOW TABLES;
