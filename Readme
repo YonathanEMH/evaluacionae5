@@ -1,0 +1,68 @@
+# Proyecto Base de Datos Relacionales
+
+## Descripción del Proyecto
+
+Este proyecto tiene como objetivo demostrar el conocimiento y aplicación de conceptos fundamentales de bases de datos relacionales, incluyendo el diseño, implementación y manipulación de datos utilizando SQL. El proyecto abarca desde la conceptualización del modelo de datos hasta la implementación práctica de consultas y operaciones de gestión de datos.
+
+## Objetivos de Aprendizaje
+
+### 1. Fundamentos de Bases de Datos Relacionales
+- Comprensión de componentes básicos: tablas, registros, campos, claves primarias y foráneas
+- Análisis de relaciones entre entidades para satisfacer necesidades organizacionales
+- Implementación de estructuras relacionales eficientes
+
+### 2. Consultas SQL (DQL)
+- Desarrollo de consultas complejas utilizando `SELECT`, `WHERE`, `JOIN`, `GROUP BY`
+- Obtención de información específica según requerimientos planteados
+- Optimización de consultas para mejorar el rendimiento
+
+### 3. Manipulación de Datos (DML)
+- Operaciones de inserción (`INSERT`), actualización (`UPDATE`) y eliminación (`DELETE`)
+- Modificación de datos existentes para resolver problemas específicos
+- Mantenimiento de la integridad referencial
+
+### 4. Definición de Datos (DDL)
+- Creación, modificación y eliminación de estructuras de base de datos
+- Implementación de tablas, índices y constrains
+- Gestión de objetos de base de datos
+
+### 5. Modelado de Datos
+- Elaboración de diagramas entidad-relación (ER)
+- Aplicación de estándares de modelamiento
+- Resolución de problemas de baja a mediana complejidad
+
+## Estructura del Proyecto
+
+```
+📁 proyecto-base-datos/
+├── 📁 01-modelado/
+│   ├── diagrama-er.png
+│   ├── modelo-conceptual.sql
+│   └── README.md
+├── 📁 02-ddl/
+│   ├── creacion-tablas.sql
+│   ├── indices.sql
+│   ├── constrains.sql
+│   └── README.md
+├── 📁 03-dml/
+│   ├── insercion-datos.sql
+│   ├── actualizacion-datos.sql
+│   ├── eliminacion-datos.sql
+│   └── README.md
+├── 📁 04-consultas/
+│   ├── consultas-basicas.sql
+│   ├── consultas-joins.sql
+│   ├── consultas-agregacion.sql
+│   └── README.md
+├── 📁 05-casos-uso/
+│   ├── caso-tienda-online.sql
+│   ├── caso-gestion-empleados.sql
+│   └── README.md
+└── README.md
+```
+
+## Recursos Adicionales
+
+- [Documentación SQL](https://dev.mysql.com/doc/refman/8.0/en/)
+- [Guías de Modelado ER](https://www.lucidchart.com/pages/er-diagrams)
+- [Mejores Prácticas en Bases de Datos](https://stackoverflow.com/questions/tagged/database-design)
