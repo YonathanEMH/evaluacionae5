@@ -1,0 +1,27 @@
+# Población de Datos - Sistema de Gestión de Inventario
+
+Este script tiene como objetivo poblar las tablas `productos`, `proveedores` y `transacciones` con datos coherentes con el modelo Entidad-Relación definido previamente. Los datos han sido diseñados para reflejar escenarios realistas de compras y ventas de productos tecnológicos.
+
+## Archivos incluidos
+
+- `datos_tablas.sql`: Contiene las instrucciones `INSERT` para poblar las tablas.
+
+## Tablas pobladas
+
+### 🛍 Productos (`productos`)
+Incluye 5 productos representativos como laptops, monitores y periféricos, con sus respectivos precios y cantidades en inventario.
+
+### 🚚 Proveedores (`proveedores`)
+Incluye 3 proveedores ficticios con su información de contacto y dirección.
+
+### 🔄 Transacciones (`transacciones`)
+Registra operaciones de compra y venta, asociando productos con proveedores y especificando fechas, cantidades y tipo de transacción.
+
+## Uso
+
+1. Asegúrate de haber creado previamente las tablas mediante el script `creacion_tablas.sql`.
+2. Ejecuta este script en tu gestor de base de datos SQL para insertar los registros:
+
+```sql
+-- Desde un gestor SQL
+SOURCE insert_datos.sql;
