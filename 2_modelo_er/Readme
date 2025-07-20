@@ -1,0 +1,48 @@
+# 🧩 Modelo Entidad-Relación – Sistema de Gestión de Inventario
+
+Este documento presenta el modelo Entidad-Relación (ER) del sistema de gestión de inventario. El objetivo es representar de manera visual y estructurada las entidades principales del sistema y sus relaciones.
+
+---
+
+## 📌 Objetivo
+
+Diseñar un esquema de base de datos que permita gestionar productos, proveedores y transacciones de forma organizada y con integridad referencial.
+
+---
+
+## 🗂️ Entidades y Atributos
+
+### 🟩 Producto
+- `id_producto`: INT (PK)
+- `nombre`: VARCHAR
+- `descripcion`: TEXT
+- `precio`: DECIMAL
+- `cantidad_inventario`: INT
+
+### 🟨 Proveedor
+- `id_proveedor`: INT (PK)
+- `nombre`: VARCHAR
+- `direccion`: VARCHAR
+- `telefono`: VARCHAR
+- `email`: VARCHAR
+
+### 🟦 Transacción
+- `id_transaccion`: INT (PK)
+- `tipo`: VARCHAR
+- `fecha`: DATE
+- `cantidad`: INT
+- `id_producto`: INT (FK)
+- `id_proveedor`: INT (FK)
+
+---
+
+## 🔗 Relaciones
+
+- Una transacción está asociada a un producto (`id_producto`).
+- Una transacción también está asociada a un proveedor (`id_proveedor`).
+
+---
+
+## 🖼️ Diagrama
+
+El archivo incluido en esta carpeta muestra gráficamente el modelo entidad-relación del sistema.
